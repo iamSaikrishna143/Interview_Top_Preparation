@@ -1,0 +1,50 @@
+----------------------Node js-------------------------
+
+definition:-
+1. Node js is a javascript runtime built on Chrome's V8 Javascript engine.
+2. Node js is a javascript running on the server.
+
+History:-
+In 2009 an idea came in the mind of Ryan Dahl (Google Engineer) that why
+not run javascript outside browser, so he look V8 engine and embedded in 
+a C++ program and called it Node.exe later on become a Node.js.
+
+When To use Node js-
+I/O bound
+Data Streaming Applications
+Real Time chat Applications
+
+---------------------------Node JS REPL-------------------------
+The REPL feature of Node is very user ful experimenting with Node js codes
+and to debug javascript codes.
+
+Read:- Reads user's input , parses the input into javascript dataStructure
+        and stores in memory.
+Eval:- Takes and evaluates the data structure.
+
+Print:- Prints the result.
+
+Loop:- Loops the above command untill the user presses ctrl+c twice.
+
+----------------Node js Core Modules:-
+Consider modules to be the same as Javascript liberirs.
+A set of functions you want to include in your application.
+
+Node js has a set of built in modules which you can use without any further 
+installation.
+
+1. Node js includes an additioal data tyep called buffer.
+2. (Not available in nrowser's javascript);.
+3. Buffer is mainly used to store binary data.
+4. while reading from a file or reveiving packets over the network.
+
+
+Example:-
+1. create a Folder named it Streaming
+2. create a file in it named bio.txt and data onto it.
+3. Add more data into the file at the end of the existing data.
+4. Read the data without getting the buffer data at first.
+5. Rename the file name to myBio.txt.
+6. now delete both the file and the folder.
+
+
