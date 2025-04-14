@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "name": "One Plusa",
+      "brand": "OnePlus",
+      "category": "Gazets",
+      "price": "25000",
+      "description": "SmartPhone",
+      "createdAt": "2024-03-07",
+      "id": "1"
+    },
+    {
+      "id": "0bb6",
+      "name": "saikrishna",
+      "brand": "Niki",
+      "category": "Electronics",
+      "price": "10",
+      "description": "ijij",
+      "createdAt": "2024-12-14"
+    },
+    {
+      "id": "c70b",
+      "name": "Saikrishna",
+      "brand": "Puma",
+      "category": "Fashion",
+      "price": "50000",
+      "description": "Bhuu",
+      "createdAt": "2024-12-14"
+    }
+  ]
+}

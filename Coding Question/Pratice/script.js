@@ -25,8 +25,8 @@
 
 // Anpother method
 
-// const lownum = parseInt(prompt("enter a number"));
-// const highnum = parseInt(prompt("enter a number"));
+const lownum = parseInt(prompt("enter a number"));
+const highnum = parseInt(prompt("enter a number"));
 
 // for (let i = lownum; i <= highnum; i++) {
 //   let flag = 0;
@@ -70,21 +70,21 @@
 //     n2=nextTerm;
 // }
 
-// Armstrong
-// const number=parseInt(prompt('enter a number'));
-// let sum=0;
-// let temp=number;
-// while(temp>0){
-//     let remindar=temp%10;
-//     sum=sum+remindar*remindar*remindar;
-//     temp=parseInt(temp/10);
-// }
-// if(sum==number){
-//     console.log('armstrong');
-// }
-// else{
-//     console.log('not a armstrong');
-// }
+Armstrong
+const number=parseInt(prompt('enter a number'));
+let sum=0;
+let temp=number;
+while(temp>0){
+    let remindar=temp%10;
+    sum=sum+remindar*remindar*remindar;
+    temp=parseInt(temp/10);
+}
+if(sum==number){
+    console.log('armstrong');
+}
+else{
+    console.log('not a armstrong');
+}
 
 // print factor
 // const number=parseInt(prompt('enter a number'));

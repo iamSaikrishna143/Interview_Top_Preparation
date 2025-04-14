@@ -1,27 +1,28 @@
 // 2 3 5 7 - Prime number
-// const num=parseInt(prompt('enter a number'));
-// let isPrime=true;
+const num=20;
+let isPrime=true;
 
-// if(num===1){
-//     console.log('is not prime');
-// }
-// else if(num >1){
-//     for(let i=2;i<=num;i++){
-//         if(num%i==0){
-//             isPrime=false;
-//             break;
-//         }
-//     }
-//     if(isPrime){
-//         console.log(`${num} is a prime number`);
-//     }
-//     else{
-//         console.log(`${num} is a prime number`);
-//     }
-// }
-// else{
-//     console.log('error');
-// }
+if(num===1){
+    console.log('is not prime');
+}
+else if(num >1){
+    for(let i=2;i<=num;i++){
+        if(num%i==0){console.log('Program Started');
+console.log('Program Ended');
+            isPrime=false;
+            break;
+        }
+    }
+    if(isPrime){
+        console.log(`${num} is a prime number`);
+    }
+    else{
+        console.log(`${num} is a prime number`);
+    }
+}
+else{
+    console.log('error');
+}
 
 // Anpother method
 
